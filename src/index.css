@@ -1,0 +1,46 @@
+body {
+  background-color: aliceblue;
+}
+
+input {
+  width: 30vw;
+  height: 2.5rem;
+  padding-left: 1rem;
+  font-size: 1.1rem;
+  outline: none;
+  border: 1px solid rgb(78, 74, 74);
+}
+
+section {
+  height: 20rem;
+  width: 50vw;
+  margin: auto;
+  margin-top: 3rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: white;
+  padding: 2rem 0rem;
+  box-shadow: 0px 0px 6px -2px black;
+}
+
+select {
+  width: 28rem;
+  height: 2.5rem;
+  padding-left: 1rem;
+  font-size: 1.1rem;
+  outline: none;
+  border: 1px solid rgb(95, 91, 91);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
